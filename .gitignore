@@ -5,3 +5,5 @@ eval_multilingual/
 **/__pycache__/
 nohup.out
 *.log
+ccmatrix_preview_test
+.DS_Store

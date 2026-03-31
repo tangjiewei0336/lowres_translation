@@ -1,0 +1,28 @@
+{
+  "mode": "batch",
+  "model": "Qwen/Qwen3.5-9B",
+  "served_model_name": null,
+  "base_url": null,
+  "split": "dev",
+  "language_pair_groups": [
+    ["eng_Latn", "zho_Hans"],
+    ["spa_Latn", "ind_Latn", "vie_Latn", "tha_Thai", "tgl_Latn"]
+  ],
+  "bidirectional": true,
+  "language_pairs": [],
+  "limit": 100,
+  "pair_sample_limits": {
+    "eng_Latn-spa_Latn": 200,
+    "spa_Latn-eng_Latn": null
+  },
+  "random_sample": false,
+  "seed": null,
+  "replicates": 1,
+  "metrics": ["bleu", "comet"],
+  "output_dir": "eval_multilingual",
+  "summary": null,
+  "output": null,
+  "max_tokens": 512,
+  "max_workers": 16,
+  "verbose": false
+}
