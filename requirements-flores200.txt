@@ -1,0 +1,7 @@
+# FLORES-200 评估脚本依赖
+datasets>4.0
+openai>=1.0.0
+sacrebleu>=2.0.0
+tqdm>=4.65.0
+unbabel-comet
+matplotlib
